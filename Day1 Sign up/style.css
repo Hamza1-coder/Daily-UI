@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orelega+One&family=Radio+Canada:wght@300&family=Square+Peg&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, purple, brown);
+}
+
+.container{
+    max-width: 700px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin: 30px;
+    padding: 50px 60px;
+}
+
+.container .title{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 30;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(180deg, purple, brown);
+}
+
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    margin-top: 20px 0px 12px 0px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    color: brown;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+
+.button-9{
+  appearance: button;
+  backface-visibility: hidden;
+  background: linear-gradient(180deg, purple, brown);
+  border-radius: 6px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 150%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
+}
